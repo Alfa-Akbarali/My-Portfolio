@@ -25,10 +25,10 @@ const Footer = () => {
                 <Link to="https://t.me/alfa_00001">
                     <img className='icons' src={telegram} alt="img" />
                 </Link>
-                <Link to="https://discordapp.com/users/1148179043859058728">
+                <Link to="https://github.com/Alfa-Akbarali">
                     <img className='icons' src={github} alt="img" />
                 </Link>
-                <Link to="https://github.com/Alfa-Akbarali">
+                <Link to="https://discordapp.com/users/1148179043859058728">
                     <img className='icons' src={discord} alt="img" />
                 </Link>
             </div>

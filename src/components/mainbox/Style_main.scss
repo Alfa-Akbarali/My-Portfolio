@@ -2,90 +2,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .mainbox_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    column-gap: 40px;
-    .info_box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 5px;
-        user-select: none;
-        align-items: center;
-        width: 100%;
-        .name {
-            font-size: 70px;
-            color: #2dd4bf;
-            font-family: "Kanit", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-
-        .skill {
-            font-family: "Roboto", sans-serif;
-            font-weight: 600;
-            font-size: 20px;
-        }
-
-        .join_mes {
-            font-family: "Roboto", sans-serif;
-            font-weight: 300;
-            font-size: 20px;
-            margin-top: 10px;
-        }
-    }
-
-    .image_box {
-        margin-top: 10px;
-        display: flex;
-        width: 100%;
-        column-gap: 20px;
-        padding: 10px;
-        justify-content: center;
-        a:active {
-            transform: translateY(1.5px);
-        }
-
-        img {
-            width: 45px;
-            filter: contrast(140%);
-            transition: 0.2s all ease-in-out;
-
-            &:hover {
-                transform: scale(1.10);
-            }
-        }
-    }
-    .my_photo_box {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        cursor: pointer;
-        .my_photo {
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 2px solid #2dd4bf;
-            box-shadow: 0px 0px 8px 0px rgba(45, 212, 191, 1);
-            transition: 300ms all ease-in-out;
-
-            &:hover {
-                transform: scale(1.02);
-            }
-        }
-    }
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  column-gap: 40px;
 }
 
-@media all and (min-width: 1000px) {
-    .mainbox_container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+.info_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  user-select: none;
+  align-items: center;
+  width: 100%;
+}
+
+.name {
+  font-size: 50px;
+  color: #2dd4bf;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.join_mes {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.image_box {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.image_box a:active {
+  transform: translateY(1.5px);
+}
+
+.image_box img {
+  width: 45px;
+  filter: contrast(140%);
+  transition: 0.2s all ease-in-out;
+}
+
+.image_box img:hover {
+  transform: scale(1.10);
+}
+
+.my_photo_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.my_photo {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #2dd4bf;
+  box-shadow: 0px 0px 8px 0px rgba(45, 212, 191, 1);
+  transition: 300ms all ease-in-out;
+}
+
+.my_photo:hover {
+  transform: scale(1.02);
+}
+
+@media (min-width: 1000px) {
+  .mainbox_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

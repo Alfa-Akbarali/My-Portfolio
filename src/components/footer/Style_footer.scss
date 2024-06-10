@@ -2,28 +2,29 @@
     padding: 0;
     margin: 0;
 }
-.footer_container {
+@mixin flex-center {
     display: flex;
+    align-items: center;
+}
+.footer_container {
+    @include flex-center;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
     padding: 5px;
     background-color: rgba(10, 10, 10, 0.615);
     border-top-right-radius: 80px;
     border-top-left-radius: 80px;
     .title_box {
-        display: flex;
+        @include flex-center;
         flex-direction: column;
-        align-items: center;
         row-gap: 5px;
         .text_contact {
             font-size: 17px;
         }
         .links_contant {
-            display: flex;
+            @include flex-center;
             flex-direction: row;
             column-gap: 20px;
-            align-items: center;
             padding: 5px;
             .call_icon,.sms_icon {
                 width: 70%;
@@ -38,8 +39,7 @@
         }
     }
     .icon_box {
-        display: flex;
-        align-items: center;
+        @include flex-center;
         justify-content: center;
         .icons {
             width: 33%;
@@ -52,17 +52,28 @@
         }
     }
 }
-@media all and (min-width: 620px) {
+
+@media (min-width: 475px) {}
+
+@media (min-width: 640px) {
     .footer_container {
         padding: 12px;
     }
 }
 
-@media all and (min-width: 1000px) {
+@media (min-width: 1024px) {
     .footer_container {
-        padding: 20px;
+        padding: 25px;
     }
     .title_box .text_contact { /* Add .title_box to increase specificity */
         font-weight: 400;
+    }
+}
+@media (min-width: 1280px) {
+    .title_box .links_contant {
+        
+        img {
+            
+        }
     }
 }

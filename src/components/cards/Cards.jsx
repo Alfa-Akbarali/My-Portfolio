@@ -37,10 +37,8 @@ const Cards = () => {
                 </Link>
                 <div className='new_card'>
                     <span>New projects coming soon.. 🤠</span>
-                    
                 </div>
             </div>
-            
         </div>
     )
 }

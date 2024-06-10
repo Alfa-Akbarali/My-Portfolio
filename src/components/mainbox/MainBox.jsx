@@ -15,7 +15,7 @@ const Mainbox = () => {
     <div className='mainbox_container' id='home'>
       <div></div>
       <div className='info_box'>
-        <h2 className='name'>Akbarali</h2>
+        <h2 className='name'>Hi I'm Akbarali 👋</h2>
         <p className='skill'>Full-Stack developer</p>
         <p className='join_mes'>Join me down below and let's get cracking!</p>
         <div className='image_box'>
