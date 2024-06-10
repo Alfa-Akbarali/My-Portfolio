@@ -63,26 +63,47 @@
 .resume_container .link_box .back_btn:hover {
     box-shadow: 0px 0px 10px 0px rgba(45, 212, 191, 1);
 }
-@media all and (min-width: 650px) {
+
+@media (min-width: 768px) {
+    .resume_container .image_box img {
+        width: 59%;
+    }
+
     .link_box {
         font-size: 18px;
     }
 }
 
-@media all and (min-width: 1024px) {
-    .resume_container .image_box img {
-        width: 47%;
+@media (min-width: 1024px) {
+    .resume_container {
+        .image_box img {
+            width: 48%;
+        }
     }
+
     .link_box {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
-@media all and (min-width: 1400px) {
-    .resume_container .image_box img {
-        width: 32%;
+@media (min-width: 1280px) {
+    .resume_container {
+        .image_box img {
+            width: 39%;
+        }
+        .link_box {
+            font-size: 16px;
+        }
     }
-    .link_box {
-        font-size: 20px;
+}
+
+@media (min-width: 1536px) {
+    .resume_container {
+        .image_box img {
+            width: 32%;
+        }
+        .link_box {
+            font-size: 18px;
+        }
     }
 }
