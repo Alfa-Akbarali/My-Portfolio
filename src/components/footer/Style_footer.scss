@@ -67,7 +67,7 @@
 }
 @media (min-width: 768px) {
     .footer_container {
-        padding: 40px;
+        padding: 14px;
     }
     .footer_container .title_box {
 
@@ -77,13 +77,11 @@
                 width: 120%;
                 height: 120%;
             }
-
             .sms_icon {
                 width: 120%;
                 height: 120%;
             }
         }
-
         .text_contact {
             font-size: 25px;
         }
@@ -96,14 +94,13 @@
 
 @media (min-width: 1024px) {
     .footer_container {
-        padding: 30px;
+        padding: 12px;
     }
 
     .title_box .text_contact {
         /* Add .title_box to increase specificity */
         font-weight: 400;
     }
-
     .footer_container .title_box {
 
         /* Add .footer_container to increase specificity */
@@ -117,20 +114,19 @@
                 height: 100%;
             }
         }
-
         .text_contact {
             font-size: 20px;
         }
     }
 
     .footer_container .icon_box .icons {
-        width: 45%;
+        width: 42%;
     }
 }
 
 @media (min-width: 1280px) {
     .footer_container {
-        padding: 25px;
+        padding: 10px;
     }
 
     .footer_container .title_box .links_contant {
@@ -138,8 +134,8 @@
         /* Add .footer_container to increase specificity */
         .call_icon,
         .sms_icon {
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 90%;
         }
     }
 

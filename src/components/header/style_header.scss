@@ -26,7 +26,6 @@
     cursor: pointer;
 
   }
-
   .rezume_box {
     @include display-row();
     align-items: center;
@@ -37,7 +36,6 @@
       align-items: center;
       font-size: 18px;
       user-select: none;
-
       p {
         cursor: pointer;
         color: white;
@@ -52,7 +50,6 @@
         }
       }
     }
-
     .rezume_link {
       color: white;
       text-decoration: none;
@@ -62,7 +59,6 @@
       font-size: 1rem;
       transition: 2px all ease-out;
       font-family: "Roboto", sans-serif;
-
       &:hover {
         box-shadow: 0px 0px 10px 0px rgba(45, 212, 191, 1);
       }
@@ -75,7 +71,7 @@
 }
 @media (min-width: 475px) {
   .header_container {
-    padding: 30px 100px;
+    padding: 16px 100px;
     .rezume_box {
       column-gap: 10px;
       .rezume_link {
@@ -86,7 +82,7 @@
 }
 @media (min-width: 768px) {
   .header_container {
-    padding: 35px 100px;
+    padding: 16px 100px;
     .partfolio_box{
       p {
         font-size: 2.2rem;
@@ -112,7 +108,7 @@
 }
 @media (min-width: 1024px) {
   .header_container {
-    padding: 30px 100px;
+    padding: 17px 100px;
     .partfolio_box{
       p {
         font-size: 1.7rem;
@@ -139,7 +135,7 @@
 }
 @media (min-width: 1280px) {
   .header_container {
-    padding: 30px 100px;
+    padding: 18px 100px;
     .partfolio_box{
       p {
         font-size: 1.7rem;
@@ -165,7 +161,7 @@
 }
 @media (min-width: 1536px) {
   .header_container {
-    padding: 30px 100px;
+    padding: 20px 100px;
     .partfolio_box{
       p {
         font-size: 1.5rem;
