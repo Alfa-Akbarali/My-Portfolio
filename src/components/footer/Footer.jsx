@@ -16,7 +16,7 @@ const Footer = () => {
                     <Link to="tel:+998910917177">
                         <img className='call_icon' src={call_icon} alt="img" />
                     </Link>
-                    <Link to="sms:+998910917177&body=Привет">
+                    <Link to="sms:+998910917177">
                         <img className='sms_icon' src={sms_icon} alt="img" />
                     </Link>
                 </div>
