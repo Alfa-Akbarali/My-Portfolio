@@ -69,29 +69,9 @@
     }
   }
 }
-@media (min-width: 475px) {
-  .header_container {
-    padding: 36px 100px;
-    .rezume_box {
-      column-gap: 15px;
-      .rezume_link {
-        padding: 23px 30px;
-      }
-      .slides_box {
-        p {
-          font-size: 53px;
-        }
-      }
-      .rezume_link {
-        padding: 37px 67px;
-      }
-    }
-    
-  }
-}
 @media (min-width: 768px) {
   .header_container {
-    padding: 30px 100px;
+    padding: 10px 100px;
     .partfolio_box{
       p {
         font-size: 2.5rem;
@@ -110,7 +90,8 @@
         }
       }
       .rezume_link {
-        padding: 17px 27px;
+        padding: 17px 28px;
+        font-size: 25px;
       }
     }
   }
@@ -138,6 +119,7 @@
       }
       .rezume_link {
         padding: 15px 25px;
+        font-size: 15px;
       }
     }
   }
