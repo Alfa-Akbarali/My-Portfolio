@@ -29,7 +29,6 @@
         .links_contant {
             @include flex-center;
             flex-direction: row;
-            column-gap: 20px;
             padding: 5px;
 
             .call_icon,
@@ -65,21 +64,23 @@
         }
     }
 }
+
+
 @media (min-width: 768px) {
     .footer_container {
-        padding: 14px;
+        padding: 15px;
     }
     .footer_container .title_box {
 
         .links_contant {
-            column-gap: 50px;
+            column-gap: 90px;
             .call_icon {
-                width: 120%;
-                height: 120%;
+                width: 125%;
+                height: 125%;
             }
             .sms_icon {
-                width: 120%;
-                height: 120%;
+                width: 125%;
+                height: 125%;
             }
         }
         .text_contact {
